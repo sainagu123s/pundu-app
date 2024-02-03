@@ -1,2 +1,2 @@
-# pundu-app.com
+# pundu-app
 thaque for visting
