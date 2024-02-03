@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+    border-radius: 20px;
+    border-color: aqua;
+    border-style: double;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 30px;
+    padding: 20px;
+    word-spacing: 1px;
+    border-width: thick;
+    size: 2px;
+}
+h1{
+    color:greenyellow;
+    text-shadow: 20px 15px 4px rgb(217, 227, 15);
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    text-rendering: geometricPrecision;
+    padding: 20px;
+    position: sticky;
+    direction: ltr;
+    font-weight: bolder;
+    font-style: oblique;
+}
+h1:hover{
+    color: deeppink;
+}
+.user{
+    color:skyblue;
+    text-transform:capitalize;
+
+}
+.pass{
+    color:skyblue;
+    text-transform: capitalize;
+}
+.tuser {color: gold;
+       border-color: rgb(247, 2, 2);
+       border-style:solid;
+       border-radius: 7px;
+       border-top-left-radius: 8px;
+       border-top-right-radius: 8px;
+       border-bottom-left-radius: 8px;
+       border-bottom-right-radius: 8px;
+       background-color: black;
+}
+.tpass {color: gold;
+        border-color: rgb(246, 3, 3);
+        border-style:solid;
+        border-radius: 7px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius:8px;
+        border-bottom-right-radius: 8px;
+        background-color: black;
+}
+.tuser:active{
+    background-color: chartreuse;
+    border-color: rgb(0, 0, 0);
+}
+.tpass:active{
+    background-color: rgb(85, 157, 13);
+}
+.sub{
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+  }
+  
+  .sub {
+    background: rgb(0,140,255);
+    box-shadow: 0 0 25px rgb(0,140,255);
+  }
+  
+  .sub:hover {
+    box-shadow: 0 0 5px rgb(0,140,255),
+    0 0 25px rgb(0,140,255),
+    0 0 50px rgb(0,140,255),
+    0 0 100px rgb(0,140,255);
+  }
+  h6{
+    text-align:right;
+    color: deeppink ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform:capitalize;
+    transition: 0.5s;
+    transition-property: box-shadow;
+  }
+h6:hover{
+    color:aqua;
+}
+.user:hover{
+    color: aliceblue;
+}
+.pass:hover{
+    color: aliceblue;
+}
